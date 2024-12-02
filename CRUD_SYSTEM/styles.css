@@ -1,0 +1,152 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #ffe4e1;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff69b4;
+}
+
+.buttons button {
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.buttons button:hover {
+    background-color: #ff4b6e;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6f91;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #ff4b6e;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ff6f91;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #ffe4e1;
+}
+<style>
+    form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    form input, form select, form button {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form input:focus, form select:focus, form button:focus {
+        outline: none;
+        border-color: #ff6f91;
+        box-shadow: 0 0 5px rgba(255, 111, 145, 0.5);
+    }
+
+    form button {
+        background-color: #ff6f91;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    form button:hover {
+        background-color: #ff4b6e;
+    }
+</style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    margin: 0 auto; 
+    max-width: 800px;
+}
+
+.photo-container {
+    border: 5px solid #ff69b4; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo {
+    display: block;
+    width: 200px; 
+    height: auto; 
+    transition: transform 0.3s; 
+}
+
+.photo:hover {
+    transform: scale(1.05); 
+}
